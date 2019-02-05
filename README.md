@@ -3,36 +3,9 @@
 It's time to install all of the things! It's here we'll show you all the apps
 you'll want to use that will be helpful through the duration of the course.
 
-### Learning Goals
-
-* Configure your development environment
-
-*Note: Follow the steps sequentially and do not skip any steps! If you cannot successfully complete a step, ask a question in the Questions channel on Slack. Also, much of the software we use is subject to changes and updates. If there is a discrepancy in our videos and the written instructions, be sure to follow the written instructions. The videos are provided for additional context and benefit.*
-
 ### Update Your Operating System
 
 #### Instructions
-
-1) Determine your OS X version by clicking on the Apple logo in the top left hand of your screen. Select "About This Mac." You should see a version number for OS X. What matters are the first two numbers (the major version and the minor version, respectively).
-
-    * 10.6 - Snow Leopard
-    * 10.7 - Lion
-    * 10.8 - Mountain Lion
-    * 10.9 - Mavericks
-    * 10.10 - Yosemite
-    * 10.11 - El Capitan
-    * 10.12 - macOS Sierra
-
-2) If do not have OS X 10.11 El Capitan, or later, go to the Apple Store and update your OS.
-
-**Note: You will need an Apple ID to install applications through the App Store. If
-you don't already have an Apple ID, now might be a good time to create one. To
-do so, visit [My Apple
-ID](https://appleid.apple.com/cgi-bin/WebObjects/MyAppleId.woa/wa/createAppleId?localang=en_US).**
-
-#### Why?
-
-A lot of the software development tools that we use require the latest version of OS X to function properly.
 
 ### Install Chrome
 
@@ -45,31 +18,11 @@ Chrome will be your primary development browser. Chrome is fast and efficient.
 Chrome's developer tools (right click on an a page and select "Inspect Element")
 are tremendously powerful and helpful for web development.
 
-### Install Dropbox
-
-#### Instructions
-1) [Download](https://www.dropbox.com/downloading?os=mac)
-
-#### Why?
-
-Dropbox is an easy way to automatically backup files in the cloud. We highly
-recommend that you save all of your work into your Dropbox folder in order to
-limit the possibility of losing any work.
-
-It also gives you quick access to shared Launch Academy materials and other
-files you might use across machines.
-
-From this point forward, every folder you create, every note you take, every
-line of code that you write, should be saved under your Dropbox folder. This is
-your insurance plan for the work you create at Launch.
-
 ### Getting Atom Set Up
 
 #### Recommended Packages
 
 *  Monokai Theme - sweet looking syntax theme
-*  Advanced Open File - allows you to make files exactly where you want by giving a
-   path. Create a new file with option + cmd + o.
 *  File Icons - will give you nice looking file icons
 
 ### Basic Keyboard Shortcuts
@@ -98,7 +51,7 @@ your insurance plan for the work you create at Launch.
 
 #### Why?
 
-[Atom](https://atom.io/) is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file. It is the editor that everyone at Launch will utilize.
+[Atom](https://atom.io/) is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
 
 ### Locate your Terminal
 
@@ -116,7 +69,7 @@ Use the resulting window to execute the terminal commands as instructed below.
 
 #### Instructions
 
-Note that the installation of command line tools can take a bit of time. Ensure you have a good internet connection available, and once you've begun the installation process, be prepared to take a break.
+Note that the installation of command line tools can take a bit of time.
 
 1) Install the command line tools by entering the following command into your terminal
 xcode-select --install
@@ -254,5 +207,3 @@ Note that in the video above, versions may differ. Like other modern software, d
 You'll want a stable recent version of Ruby to develop with!
 
 ### Congrats! You're done with the core installation requirements!
-
-In the next assignment, we'll run through the list and ensure everything is installed and ready to go!
