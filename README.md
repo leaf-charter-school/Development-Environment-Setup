@@ -3,10 +3,6 @@
 It's time to install all of the things! It's here we'll show you all the apps
 you'll want to use that will be helpful through the duration of the course.
 
-### Update Your Operating System
-
-#### Instructions
-
 ### Install Chrome
 
 #### Instructions
