@@ -14,41 +14,6 @@ Chrome will be your primary development browser. Chrome is fast and efficient.
 Chrome's developer tools (right click on an a page and select "Inspect Element")
 are tremendously powerful and helpful for web development.
 
-### Getting Atom Set Up
-
-#### Recommended Packages
-
-*  Monokai Theme - sweet looking syntax theme
-*  File Icons - will give you nice looking file icons
-
-### Basic Keyboard Shortcuts
-
-### Moving within a file
-- *Move to the cursor to the border of the file* cmd + arrow key
-- *Move the cursor word-by-word:* opt + → and opt + ←
-
-### Opening files and moving between tabs
-- *Open a file by name:* cmd + p, type in the name of the file, and press return.
-- *Switch to a different open tab:* opt + cmd + → and opt + cmd + ←
-
-### Highlighting
-- *The whole file:* cmd + a
-- *Highlighing multiple lines:* cmd + l will highligh one line. If you keep hitting l, more lines will be highlighted underneath!
-
-### Modifying your code
-- *Commenting:* cmd + / will comment out the current line. If a block of code is highlighted, then the whole block will be commented. Repeat action again to uncomment code.
-- *Tabbing:* tab will tab your current line. If a block of code is highlighted, then the whole block will be tabbed. To un-tab press tab + shift.
-- *Move current line up and down:* cmd + ctrl + ↑ and cmd + ctrl + ↓
-- *Select the next word that's the same as the current word:* cmd + d (repeated however many times you want) will select the next word(s) that match the word your cursor is currently on - and create a cursor on each one when you start typing!
-
-### External Resources
-- [Atom Cheat Sheet](http://d2wy8f7a9ursnm.cloudfront.net/atom-editor-cheat-sheet.pdf)
-- [Giant "Using Atom" Documentation](https://atom.io/docs/v0.188.0/using-atom-editing-and-deleting-text)
-
-#### Why?
-
-[Atom](https://atom.io/) is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
-
 ### Locate your Terminal
 
 The Terminal is one application you can use to access the command line for your system. As a developer, you'll be using the command line frequently. We will install a better alternative to Terminal below, but we need to use Terminal to help us get started, first.
@@ -79,6 +44,7 @@ install "Command Line Tools OS X".
 xcode-select -p
 You should see the following returned
 /Library/Developer/CommandLineTools
+
 #### Why?
 
 Installation of many common Unix-based tools requires a GCC compiler. The Xcode Command Line Tools include a GCC compiler.
@@ -132,6 +98,45 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 terminal much more enjoyable. It will configure a lot of things for you, such as
 auto-completion and awesome colors. As a developer, you'll spend lots of quality time in your terminal, so it's a
 good idea to take advantage of tools that make it easier and more fun to use.
+### Install Atom
+
+*  Download [atom](https://atom.io/)
+
+### Getting Atom Set Up
+
+#### Recommended Packages
+
+*  Monokai Theme - sweet looking syntax theme
+*  File Icons - will give you nice looking file icons
+
+### Basic Keyboard Shortcuts
+
+### Moving within a file
+- *Move to the cursor to the border of the file* cmd + arrow key
+- *Move the cursor word-by-word:* opt + → and opt + ←
+
+### Opening files and moving between tabs
+- *Open a file by name:* cmd + p, type in the name of the file, and press return.
+- *Switch to a different open tab:* opt + cmd + → and opt + cmd + ←
+
+### Highlighting
+- *The whole file:* cmd + a
+- *Highlighing multiple lines:* cmd + l will highligh one line. If you keep hitting l, more lines will be highlighted underneath!
+
+### Modifying your code
+- *Commenting:* cmd + / will comment out the current line. If a block of code is highlighted, then the whole block will be commented. Repeat action again to uncomment code.
+- *Tabbing:* tab will tab your current line. If a block of code is highlighted, then the whole block will be tabbed. To un-tab press tab + shift.
+- *Move current line up and down:* cmd + ctrl + ↑ and cmd + ctrl + ↓
+- *Select the next word that's the same as the current word:* cmd + d (repeated however many times you want) will select the next word(s) that match the word your cursor is currently on - and create a cursor on each one when you start typing!
+
+### External Resources
+- [Atom Cheat Sheet](http://d2wy8f7a9ursnm.cloudfront.net/atom-editor-cheat-sheet.pdf)
+- [Giant "Using Atom" Documentation](https://atom.io/docs/v0.188.0/using-atom-editing-and-deleting-text)
+
+#### Why?
+
+[Atom](https://atom.io/) is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
+
 
 ### Set Atom as your default editor
 
