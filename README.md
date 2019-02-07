@@ -144,12 +144,15 @@ good idea to take advantage of tools that make it easier and more fun to use.
 
 1) Open Atom and click the "Atom" menu, then select "Install Shell Commands."
 
-2) Run the following command on the command line
-echo "export EDITOR=\"/usr/local/bin/atom --wait\"" >> ~/.zshrc
-3) Verify that this step was successful. On your command line, go to your root directory by running
-cd ~
-and opening up the .zshrc file with
-atom .zshrc
+**2) Run the following command on the command line
+>>>echo "export EDITOR=\"/usr/local/bin/atom --wait\"" >> ~/.zshrc
+
+**3) Verify that this step was successful. On your command line, go to your root directory by running
+>>>cd ~
+
+**and opening up the .zshrc file with
+>>>atom .zshrc
+
 At the bottom of the file, you should see:
 export EDITOR="/usr/local/bin/atom --wait"
 #### Why?
@@ -158,27 +161,40 @@ We want to ensure that our terminal opens up Atom by default whenever an editor 
 
 ### Install chruby
 
-1) First, we have to check that a conflicting library is not in place. Ruby Version Manager, or RVM for short, is an alternative to chruby that you may have installed in the past. Let's check that RVM is not installed by running the following command:
-rvm notes
-You should get
+1) First, we have to check that a conflicting library is not in place. Ruby Version Manager, or RVM for short, is an alternative to chruby that you may have installed in the past. 
+
+**Let's check that RVM is not installed by running the following command:
+>>>rvm notes
+
+**You should get
 zsh: command not found: rvm
-If you do not get the expected output, uninstall RVM by running
-sudo rvm implode
-2) We also need to check that we don't have another problematic application, known as MacPorts. This can cause conflicts and configuration issues with homebrew. Check that MacPorts are not installed by running
-port help
-You should get
+
+
+**If you do not get the expected output, uninstall RVM by running
+>>>sudo rvm implode
+
+2) We also need to check that we don't have another problematic application, known as MacPorts. This can cause conflicts and configuration issues with homebrew. 
+
+**Check that MacPorts are not installed by running
+>>>port help
+
+**You should get
 zsh: command not found: port
+
 If you do not get the expected output, you can uninstall MacPorts by following [this guide](https://guide.macports.org/chunked/installing.macports.uninstalling.html).
 
-3) Install Chruby by running in your terminal
+**3) Install Chruby by running in your terminal
 brew install chruby
-4) Enable Auto-switching current Ruby versions by running the following two commands
+
+**4) Enable Auto-switching current Ruby versions by running the following two commands
 echo "source /usr/local/share/chruby/chruby.sh" >> ~/.zshrc
 echo "source /usr/local/share/chruby/auto.sh" >> ~/.zshrc
-5) Verify that this step was successful. On your command line, go to your root directory by running
-cd ~
+
+**5) Verify that this step was successful. On your command line, go to your root directory by running
+>>>cd ~
 and opening up the .zshrc file with
-atom .zshrc
+>>>atom .zshrc
+
 At the bottom of the file, you should see
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
@@ -189,8 +205,9 @@ different versions of Ruby. Thus, you'll be able to work on multiple projects re
 
 ### Install Ruby versions
 
-1) Install the Ruby version installer, [ruby-install](https://github.com/postmodern/Ruby-install#readme) with the command below.
+**1) Install the Ruby version installer, [ruby-install](https://github.com/postmodern/Ruby-install#readme) with the command below.
 brew install ruby-install
+
 2) Install Ruby 2.4.5
 ruby-install ruby 2.4.5
 3) Set Ruby 2.4.5 as your default Ruby
@@ -208,3 +225,19 @@ Note that in the video above, versions may differ. Like other modern software, d
 You'll want a stable recent version of Ruby to develop with!
 
 ### Congrats! You're done with the core installation requirements!
+
+mkdir ~/assignments
+
+cd assignments
+
+atom .
+
+hello-world.rb
+
+```
+puts "hello world!"
+```
+
+ruby hello-world.rb
+
+
