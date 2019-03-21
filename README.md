@@ -48,7 +48,7 @@
   <Put who won here (whoever has 2 or more wins)>
   end
   
-  if playerOneWinCount < 2 && playerTwoWinCount <2
+  if playerOneWinCount < 2 && playerTwoWinCount < 2
   
   <do the whole thing again>
   
