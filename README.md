@@ -1,26 +1,62 @@
 ### Assignment 4 extra credit
 
-* Make your rock paper scissors program **best of 3
+* Make your rock paper scissors program **best of 3**
+
+
+
+
+
+
+
 
 ***hint***
 
-* You will need to keep track of how many games each player has won, and check that each time
+* You will need a variable to keep track of how many times the player won and how many times the computer won
+
+* You will need to add to the variable each time the player or computer wins
+
+* You will need to check if the player or computer has won 2 or more games before the start of each new game
+
+* For a best of 3 match you'll have to play through the game 3 times
+
+
+
+
+
+
+
+
+
+
+
+
+**psuedo-code example**
 
 ```ruby
   playerOneWinCount = 0
+  
   playerTwoWinCount = 0
   
   if playerOneWinCount < 2 && playerTwoWinCount < 2
+  
   computer_choice = rand(3)
   puts "choose r p or s"
   player_choice = gets.chomp
+  
   <play the game, if someone wins, add 1 to their win count>
   else
-  <Put who won here>
+  <Put who won here (whoever has 2 or more wins)>
   end
+  
+  if playerOneWinCount < 2 && playerTwoWinCount <2
+  
+  <do the whole thing again>
+  
+  end
+  
+  <do the above again>
 ```
 
-* using an if statement you'll have to do this 3 times
 
 ### Assignment 4
 
