@@ -1,6 +1,6 @@
 ### Assignment 4 extra credit
 
-* Make your rock paper scissors program best of 3
+* Make your rock paper scissors program **best of 3
 
 ***hint***
 
