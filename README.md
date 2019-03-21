@@ -1,3 +1,27 @@
+### Assignment 4 extra credit
+
+* Make your rock paper scissors program best of 3
+
+***hint***
+
+* You will need to keep track of how many games each player has won, and check that each time
+
+```ruby
+  playerOneWinCount = 0
+  playerTwoWinCount = 0
+  
+  if playerOneWinCount < 2 && playerTwoWinCount < 2
+  computer_choice = rand(3)
+  puts "choose r p or s"
+  player_choice = gets.chomp
+  <play the game, if someone wins, add 1 to their win count>
+  else
+  <Put who won here>
+  end
+```
+
+* using an if statement you'll have to do this 3 times
+
 ### Assignment 4
 
 [https://classroom.github.com/a/zf0oJ3Mo](https://classroom.github.com/a/zf0oJ3Mo)
