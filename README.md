@@ -1,62 +1,26 @@
-### Assignment 4 extra credit
+### Ryder
 
-* Make your rock paper scissors program **best of 3**
+[https://classroom.github.com/a/YMxW0Rna](https://classroom.github.com/a/YMxW0Rna)
 
+### Kole
 
+[https://classroom.github.com/a/3Eds6YHl](https://classroom.github.com/a/3Eds6YHl)
 
+### Emma
 
+[https://classroom.github.com/a/q8yTxjCE](https://classroom.github.com/a/q8yTxjCE)
 
+### Phoenix
 
+[https://classroom.github.com/a/B2st9LKb](https://classroom.github.com/a/B2st9LKb)
 
+### Jeremiah
 
-***hint***
+[https://classroom.github.com/a/GP2cYSXd](https://classroom.github.com/a/GP2cYSXd)
 
-* You will need a variable to keep track of how many times the player won and how many times the computer won
+### Sam
 
-* You will need to add to the variable each time the player or computer wins
-
-* You will need to check if the player or computer has won 2 or more games before the start of each new game
-
-* For a best of 3 match you'll have to play through the game 3 times
-
-
-
-
-
-
-
-
-
-
-
-
-**psuedo-code example**
-
-```ruby
-  playerOneWinCount = 0
-  
-  playerTwoWinCount = 0
-  
-  if playerOneWinCount < 2 && playerTwoWinCount < 2
-  
-  computer_choice = rand(3)
-  puts "choose r p or s"
-  player_choice = gets.chomp
-  
-  <play the game, if someone wins, add 1 to their win count>
-  else
-  <Put who won here (whoever has 2 or more wins)>
-  end
-  
-  if playerOneWinCount < 2 && playerTwoWinCount < 2
-  
-  <do the whole thing again>
-  
-  end
-  
-  <do the above again>
-```
-
+[https://classroom.github.com/a/xvOj0N-M](https://classroom.github.com/a/xvOj0N-M)
 
 ### Assignment 4
 
