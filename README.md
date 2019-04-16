@@ -1,3 +1,7 @@
+## Assignment 5 - Loops
+
+[https://classroom.github.com/a/5OS6ZciI](https://classroom.github.com/a/5OS6ZciI)
+
 ### Ryder
 
 [https://classroom.github.com/a/YMxW0Rna](https://classroom.github.com/a/YMxW0Rna)
