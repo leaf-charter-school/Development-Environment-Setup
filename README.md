@@ -1,3 +1,7 @@
+## Loop Practice
+
+[https://classroom.github.com/a/evYSoK0i](https://classroom.github.com/a/evYSoK0i)
+
 ## Assignment 5 - Loops
 
 [https://classroom.github.com/a/5OS6ZciI](https://classroom.github.com/a/5OS6ZciI)
