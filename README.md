@@ -1,3 +1,7 @@
+## Array Practice
+
+[https://classroom.github.com/a/H9QOQ4lH](https://classroom.github.com/a/H9QOQ4lH)
+
 ## Loop Practice
 
 [https://classroom.github.com/a/evYSoK0i](https://classroom.github.com/a/evYSoK0i)
