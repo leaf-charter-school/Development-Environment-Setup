@@ -1,3 +1,7 @@
+## Array Practice
+
+[https://classroom.github.com/a/qN3knGAY](https://classroom.github.com/a/qN3knGAY)
+
 ## Assignment-6-arrays
 
 [https://classroom.github.com/a/H9QOQ4lH](https://classroom.github.com/a/H9QOQ4lH)
