@@ -1,3 +1,7 @@
+## Array Problem
+
+[https://classroom.github.com/a/Vbz4MkyM](https://classroom.github.com/a/Vbz4MkyM)
+
 ## Array Practice
 
 [https://classroom.github.com/a/qN3knGAY](https://classroom.github.com/a/qN3knGAY)
