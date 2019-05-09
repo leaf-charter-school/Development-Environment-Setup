@@ -1,3 +1,7 @@
+## While Array Practice
+
+[https://classroom.github.com/a/9kCPfNnS](https://classroom.github.com/a/9kCPfNnS)
+
 ## Array Problem
 
 [https://classroom.github.com/a/Vbz4MkyM](https://classroom.github.com/a/Vbz4MkyM)
